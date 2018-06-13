@@ -28,7 +28,7 @@ Now you have a `lib-0.0.1.jar` file in `build/libs`. If you go to the artifactor
 
 ## Converting an ant project to Gradle
 
-The easiest way is to create a new project with `gradle init --type java-library`, move source files over individually from the old project, and test as you go.
+The easiest way is to create a new project with `gradle init --type java-library`, move source files over individually from the old project, and test as you go. Be sure to configure the the project layout by configuring the appropriate source set, as seen on https://docs.gradle.org/current/userguide/java_plugin.html 
 
 ## Deploying
 
